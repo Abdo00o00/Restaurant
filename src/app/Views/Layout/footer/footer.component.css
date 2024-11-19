@@ -1,0 +1,176 @@
+#uper_footer{
+    
+    /* height: 200px; */
+    background: #1A1A1A;
+}
+a{
+    color: white;
+}
+#uper_footer .container-fluid{
+    padding: 57.5px 0;
+    /* height: 262px; */
+    background-image: url(../../../../assets/images/bg-4.png) ;
+    background-repeat: repeat-y;
+    
+}
+#uper_footer span {
+    /* font-weight: 400; */
+    font-weight:500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #8F9495;
+}
+#uper_footer .QuestionsP p {
+    color:rgb(143, 148, 149) ;
+    font-size: 14px;
+    line-height: 20px;
+}
+#uper_footer .QuestionsP span {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 26px;
+}
+#uper_footer  .QuestionsP  a{
+    
+    font-size: 18px;
+    line-height: 26px;
+
+}
+#workingHours::after {
+    content: "";
+    position: absolute;
+    top: 35%;
+    right: -15%;
+    width: 30%;
+    height: 30%;
+    background-image: url(../../../../assets/images/asset\ 51.png);
+    background-repeat: no-repeat;
+    background-size: calc(25%);
+    background-position: center;
+    z-index: 0;
+    transition: all 0.3s ease;
+    animation: shake 2.5s infinite ease;
+}
+/* start class for footer */
+.footer_line{
+    height: 0.5px; 
+    width: 100%; 
+    background-color: #b3b3b37a;
+}
+h4{
+    font-size:20px ;
+    font-weight: 600;
+    line-height: 29px;
+    text-transform: uppercase;
+    margin: 1rem 0;
+}
+footer section {
+    background: linear-gradient(90deg, rgba(17, 17, 17, 0.85) 0%, #111111 40.29%);
+}
+footer {
+    background-image: url(../../../../assets/images/asset\ 49.png);
+    background-repeat: no-repeat;
+    background-size: calc(70%);
+    background-position: left;
+}
+/* end class for footer */
+/* -- */
+/* -- */
+/* start Get In Touch part */
+#socialIcons li {
+    padding: 7px 11px 7px 12px;
+    background-color: #E8E8E8;
+    transition: all 0.3s ease;
+}
+#socialIcons li i {
+    color: #111111 !important;
+    transition: all 0.3s ease;
+}
+#socialIcons li:hover i {
+    color: #ffffff !important;
+    transform: translateY(-3px);
+}
+#socialIcons li:hover {
+    background-color: #CB3A1A;
+    transform: scale(1.15);
+}
+/* end Get In Touch part */
+/* -- */
+/* -- */
+/* start Food Menu part */
+/* end Food Menu part */
+/* -- */
+/* -- */
+/* start Working Hours part */
+#foodMenu a ,#getInTouch span{
+    color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+/* end Working Hours part */
+/* -- */
+/* -- */
+/* start instagramperview prat  */
+#instagramperview div a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #CB3A1A;
+    opacity: 0;
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+#instagramperview div .overlay{
+    opacity: 0;
+    color: white;
+    z-index: 3;
+    transition: all 0.3s ease;
+}
+
+#instagramperview div:hover .overlay ,
+#instagramperview div:hover a::after {
+    opacity: 0.8;
+}
+
+/* end instagramperview prat  */
+/* -- */
+/* -- */
+/* start copy right part */
+.copyRight{
+    padding: 1.2rem 2rem;
+    background-color: #1A1A1A;
+}
+/* end copy right part */
+/* -- */
+/* -- */
+/* strat responsive */
+@media screen and (max-width: 992px) {
+    #instagramperview{
+        margin-top: 2.4rem;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    footer div.container.mb-115 {
+        margin-bottom: 3.5rem;
+        padding-top: 3.5rem;
+    }
+}
+
+/* end responsive */
+/* -- */
+/* -- */
+/* start animation */
+@keyframes shake {
+    0% {transform: translateX(2px);  }
+    50% {transform: translateX(30px);   }
+    100% {transform: translateX(2px)  }
+}
+/* end animation */
+
