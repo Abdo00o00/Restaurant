@@ -23,29 +23,46 @@
 /* start global variables   */
 :root{
     --bg-1:#111111;
-    --color-1:#74787c;
+    --color-1-gray:#74787c;
+    --color-2-red:#CB3A1A;
 }
 .changeTextColor{
     transition: all 0.3s ease;
 }
 .changeTextColor:hover{
-    color: #CB3A1A !important;
+    color:var(--color-2-red) !important;
 }
 .mb-115 {
     margin-bottom: 115px;
 }
+.pb-115 {
+    padding-bottom: 115px;
+}
 .pt-100 {
     padding-top: 100px;
+}
+.mt-100 {
+    margin-top: 100px;
+}
+.mt-70{
+    margin-top: 70px;
 }
 /* end global variables   */
 
 /* start global styles */
 body{
-    font-family: "Jost", sans-serif;
+    font-family: "Jost", sans-serif !important;
 }
 header  , footer{
     background-color: var(--bg-1);
     color: white;
 }
+.section-space {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 /* end global styles */
 
+
+html, body { height: 100%; }
+body { margin: 0; }

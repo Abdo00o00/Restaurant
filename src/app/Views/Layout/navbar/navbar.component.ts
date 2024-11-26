@@ -23,10 +23,11 @@ export class NavbarComponent {
 
 
   nav_itemes = [
-    {name:"Home", link:"/home", a_class:"nav-link active", li_class:"nav-item", a_ariaCurrent:"page"},
-    {name:"Menu", link:"/menu", a_class:"nav-link", li_class:"nav-item"},
-    {name:"Blog", link:"/blog", a_class:"nav-link", li_class:"nav-item"},
-    {name:"Contact", link:"/contact", a_class:"nav-link", li_class:"nav-item"},
+    {name:"Home", link:"/home", a_class:"nav-link active", li_class:"nav-item ", a_ariaCurrent:"page"},
+    {name:"Menu", link:"/menu", a_class:"nav-link", li_class:"nav-item "},
+    {name:"Blog", link:"/blog", a_class:"nav-link", li_class:"nav-item "},
+    {name:"Gallery", link:"/gallery", a_class:"nav-link", li_class:"nav-item "},
+    {name:"Contact", link:"/contact", a_class:"nav-link", li_class:"nav-item "},
 
   ]
 }

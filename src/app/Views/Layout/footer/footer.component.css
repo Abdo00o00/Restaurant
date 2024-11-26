@@ -1,55 +1,5 @@
-#uper_footer{
-    
-    /* height: 200px; */
-    background: #1A1A1A;
-}
 a{
     color: white;
-}
-#uper_footer .container-fluid{
-    padding: 57.5px 0;
-    /* height: 262px; */
-    background-image: url(../../../../assets/images/bg-4.png) ;
-    background-repeat: repeat-y;
-    
-}
-#uper_footer span {
-    /* font-weight: 400; */
-    font-weight:500;
-    font-size: 24px;
-    line-height: 35px;
-    color: #8F9495;
-}
-#uper_footer .QuestionsP p {
-    color:rgb(143, 148, 149) ;
-    font-size: 14px;
-    line-height: 20px;
-}
-#uper_footer .QuestionsP span {
-    text-transform: uppercase;
-    font-size: 18px;
-    line-height: 26px;
-}
-#uper_footer  .QuestionsP  a{
-    
-    font-size: 18px;
-    line-height: 26px;
-
-}
-#workingHours::after {
-    content: "";
-    position: absolute;
-    top: 35%;
-    right: -15%;
-    width: 30%;
-    height: 30%;
-    background-image: url(../../../../assets/images/asset\ 51.png);
-    background-repeat: no-repeat;
-    background-size: calc(25%);
-    background-position: center;
-    z-index: 0;
-    transition: all 0.3s ease;
-    animation: shake 2.5s infinite ease;
 }
 /* start class for footer */
 .footer_line{
@@ -72,6 +22,21 @@ footer {
     background-repeat: no-repeat;
     background-size: calc(70%);
     background-position: left;
+}
+#workingHours::after {
+    content: "";
+    position: absolute;
+    top: 35%;
+    right: -15%;
+    width: 30%;
+    height: 30%;
+    background-image: url(../../../../assets/images/asset\ 51.png);
+    background-repeat: no-repeat;
+    background-size: calc(25%);
+    background-position: center;
+    z-index: 0;
+    transition: all 0.3s ease;
+    animation: shake 2.5s infinite ease;
 }
 /* end class for footer */
 /* -- */

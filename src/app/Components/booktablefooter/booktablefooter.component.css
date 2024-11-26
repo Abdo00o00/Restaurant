@@ -1,0 +1,67 @@
+*{
+    color: white;
+    text-decoration: none;
+}
+#section::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 0;
+    background-color:rgba(12, 12, 12, 0.58);
+
+}
+#section{
+    background-image: url(../../../assets/images/cta.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.content {
+    z-index: 2;
+    row-gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 61px 0;
+    column-gap: 10px;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+.left_content p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+}
+.left_content a{
+    font-weight: 700;
+
+    font-size: 40px;
+    line-height: 52px;
+}
+.right_content a:hover{
+    background-color: var(--color-2-red);
+    border-color: transparent !important;
+}
+.right_content a{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 12.5px 39.5px;
+    text-transform: uppercase;
+    transition: all 0.3s ease ;
+}
+/* -- */
+/* -- */
+/* strat responsiv */
+@media screen and (max-width: 768px){
+    .left_content a{
+    font-size: 30px;
+    line-height: 42px;
+}
+}
+/* end responsiv */

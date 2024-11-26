@@ -1,0 +1,260 @@
+section{
+    color: rgb(17,17,17);
+}
+a{
+    color: black;
+}
+.with_bg::before{
+    background-image: url(../../../assets/images/page-header-1.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    position: absolute;
+    object-fit: cover;
+    /* background-size: calc(150%); */
+    background-size: calc(150%);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.with_bg::after{
+    background-color: rgba(10, 10, 10, 0.73);
+    background-size: calc(150%);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+.with_bg{
+    color: white;
+}
+.with_bg h2{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 80px;
+}
+.with_bg span{
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+.with_bg p{
+    padding-top: 6rem;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.1);
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 140px;
+}
+.layerOnMap-f{
+    z-index: 1;
+    width:37% ;
+    bottom: 120px;
+    left: 320px;
+    position: absolute;
+    padding: 54px 60px 54px 60px;
+    background-color: #FFFFFF;
+}
+.mapContainer{
+    filter: brightness(0.5) saturate(0) contrast(0.7);
+}
+iframe{
+    border:0;
+    width: 100%;
+    height: 1000px;
+}
+.layerOnMapIconHome{
+    padding: 17px 21px;
+    border: 0.1px  solid rgba(0, 0, 0, 0.09) ;
+}
+hr{
+    opacity: 0.09;
+}
+p span , .layerOnMapIconHome i , .text-coloered{
+    color: #CB3A1A;
+}
+input ,select ,button {
+    border:1px solid #EAEAEA !important ;
+    padding: 11px 25px;
+    padding-right: 45px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+input:focus ,input:active ,select:focus ,select:active{
+    box-shadow: none !important;
+    outline: none !important;
+    border-color: #EAEAEA;
+}
+textarea{
+    padding: 11px 25px;
+    padding-right: 45px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+button i {
+    font-size: 25px !important;
+}
+
+.layerOnMapTitle p{
+    font-size: 16px;
+    color: rgb(116, 120, 124);
+    line-height: 26px;
+}
+.layerOnMapTitle p.h5{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(17,17,17);
+    line-height: 34px;
+}
+.layerOnMap span a ,
+.layerLineTime span ,
+.layerLineTime span span { 
+    color: rgb(116, 120, 124);
+    font-size: 16px;
+    line-height: 26px;
+}
+.layerLineTime span span{
+    color: var(--color-2-red);
+}
+.layerOnMap span:first-child {
+    color: rgb(17,17,17);
+    font-size: 18px;
+    line-height: 26px;
+}
+.head_form p{
+    Color:rgb(116, 120, 124);
+    font-size: 16px;
+    line-height: 26px;
+}
+.head_form p.h1{
+    color: rgb(17,17,17);
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+}
+form button .inbutton_moving_div {
+
+    transition: all 0.3s ease;
+}
+form button:hover .inbutton_moving_div {
+    transform: translateY(-35px);
+}
+form button {
+    line-height: 23px;
+    font-weight: 600;
+    padding: 16px 29px;
+    background-color: #CB3A1A !important;
+    border: none;
+}
+.form_f{
+    margin: 0; 
+    padding:70px 25px; 
+    background-color: #F6F6F6;
+}
+.line i{
+    font-family: 900; 
+    font-size: 13px;
+}
+/* start responsive */
+@media screen and (max-width: 1200px) {
+
+    .with_bg span{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .with_bg h2{
+        font-size: 60px;
+        line-height: 68px;
+    }
+    .with_bg p{
+        font-size: 120px;
+        line-height: 120px;
+    }
+    
+    .with_bg::before{
+        background-size: calc(200%);
+    }
+
+    .layerOnMap-f{
+        z-index: 1;
+        width:84%;
+        padding: 50px 20px;
+        position: static;
+        margin-top: 70px;
+        background-color: #F6F6F6;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .with_bg h2{
+        font-size: 50px;
+        line-height: 58px;
+    }
+    
+    .with_bg span{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .with_bg p{
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .with_bg::before{
+        background-size: calc(200%);
+    }
+}
+@media screen and (max-width: 900px) {
+
+    .with_bg::before{
+        background-size: calc(200%);
+    }
+}
+@media screen and (max-width: 800px) {
+
+    .with_bg::before{
+        background-size: calc(200%);
+    }
+}
+@media screen and (max-width: 700px) {
+
+    .with_bg::before{
+        background-size: calc(250%);
+    }
+    .layerOnMap-f{
+        width:93%;
+    }
+}
+@media screen and (max-width: 575px) {
+    .with_bg::before{
+        background-size: calc(230%);
+    }
+    .with_bg h2{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .with_bg span{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .with_bg p{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    
+}
+/* end responsive */
