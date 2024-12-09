@@ -2,7 +2,9 @@ import { Component } from '@angular/core';
 import { NavbarComponent } from '../navbar/navbar.component';
 import { FooterComponent } from '../footer/footer.component';
 import { RouterOutlet } from '@angular/router';
-import { BooktablefooterComponent } from '../../../Components/booktablefooter/booktablefooter.component';
+import { MenuComponent } from '../../../Components/menu/menu.component';
+// import { AboutComponent } from '../../../Components/about/about.component';
+// import { GalleryComponent } from '../../../Components/gallery/gallery.component';
 // import { ReservationFooterComponent } from '../../../Components/reservation-footer/reservation-footer.component';
 // import { ContactComponent } from '../../../Components/contact/contact.component';
 
@@ -11,7 +13,7 @@ import { BooktablefooterComponent } from '../../../Components/booktablefooter/bo
 @Component({
   selector: 'app-base',
   standalone: true,
-  imports: [NavbarComponent,FooterComponent,RouterOutlet,BooktablefooterComponent],
+  imports: [NavbarComponent,FooterComponent,RouterOutlet,MenuComponent],
   templateUrl: './base.component.html',
   styleUrl: './base.component.css'
 })

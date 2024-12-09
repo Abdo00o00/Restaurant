@@ -47,6 +47,28 @@
 .mt-70{
     margin-top: 70px;
 }
+.mb-70{
+    margin-bottom: 70px;
+}
+.text_colored{
+    color: var(--color-2-red);
+}
+.section__subtitle {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    display: inline-flex;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 6px 16px;
+    background: var(--color-2-red);
+}
+
+.section-space {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 /* end global variables   */
 
 /* start global styles */
@@ -57,12 +79,22 @@ header  , footer{
     background-color: var(--bg-1);
     color: white;
 }
-.section-space {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
 /* end global styles */
 
 
 html, body { height: 100%; }
 body { margin: 0; }
+/* -- */
+/* -- */
+/* start responsive */
+@media screen and (max-width: 992px) {
+    .section-space {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
+/* end responsive */
+/* -- */
+/* -- */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,7 +1,6 @@
 import { NgClass, NgComponentOutlet, NgFor } from '@angular/common';
 import { Component , } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { BrowserModule } from '@angular/platform-browser';
 import { RouterLink } from '@angular/router';
 
 @Component({
@@ -10,7 +9,6 @@ import { RouterLink } from '@angular/router';
   imports: [
     FormsModule,
     ReactiveFormsModule,
-    // BrowserModule,
     // NgClass,
     // NgComponentOutlet,
     RouterLink,
@@ -28,6 +26,7 @@ export class NavbarComponent {
     {name:"Blog", link:"/blog", a_class:"nav-link", li_class:"nav-item "},
     {name:"Gallery", link:"/gallery", a_class:"nav-link", li_class:"nav-item "},
     {name:"Contact", link:"/contact", a_class:"nav-link", li_class:"nav-item "},
+    {name:"About", link:"/about", a_class:"nav-link", li_class:"nav-item "},
 
   ]
 }

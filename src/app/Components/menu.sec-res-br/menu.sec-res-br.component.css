@@ -1,0 +1,19 @@
+select{
+    color: rgb(255, 255, 255);
+    padding:12px 20px;
+}
+
+form div.form-item .form-select {
+    border: 0.51px rgba(255, 255, 255, 0.192) solid !important;
+}
+p.sub_title{
+    font-size: 16px;
+    line-height: 26px;
+}
+p.title{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+

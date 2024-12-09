@@ -1,0 +1,20 @@
+<section class="section-space">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex flex-wrap div_container ">
+                <div class="p-3 mx-auto text-center text-lg-start bg-white  one_item d-flex flex-column flex-lg-row" *ngFor="let item of menu_items">
+                    <div class=" ">
+                        <img class="img-fluid" title="food" [src]="item.img_src" [alt]="item.alt_text">
+                    </div>
+                    <div class="col-12 col-lg-9 ps-2">
+                        <div class="d-flex text_line-back position-relative flex-column flex-lg-row justify-content-between">
+                            <span class="z-1 pe-2 bg-white"><a href="#" class="text-decoration-none bg-transparent changeTextColor text-black">{{item.a_span_text}}</a></span>
+                            <span class="z-1 ps-2 text_colored price  bg-white">{{item.span_text}}</span>
+                        </div>
+                        <p class="ps-2">{{item.p_text}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

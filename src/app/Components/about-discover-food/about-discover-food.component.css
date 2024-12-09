@@ -1,0 +1,43 @@
+.text-container p.h1 {
+    font-size: 40px;
+    line-height: 58px;
+    font-weight: 700;
+    Color:rgb(17, 17, 17);
+    text-transform: uppercase;
+}
+a img{
+    aspect-ratio: auto 361 / 220;
+    max-width: 100%;
+    object-fit: cover;
+    margin-bottom: 1.3rem;
+}
+a span {
+    font-size: 22px;
+    line-height: 32px ;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+p.lorem {
+    margin-top: 1.1rem;
+    font-size: 16px ;
+    line-height: 26px ;
+    color: rgb(116, 120, 124) ;
+}
+
+
+
+
+/* start responesive */
+@media screen and (max-width: 1200px) {
+    .text-container p.h1 {
+        font-size: 38px;
+        line-height: 50px;
+    }    
+}
+@media screen and (max-width: 576px) {
+    .text-container p.h1 {
+        font-size: 30px;
+        line-height: 42px;
+    }    
+}
+/* end responesive */

@@ -1,20 +1,8 @@
-<section class="position-relative overflow-hidden section-space">
+<app-headerpages [page_name]="page_name"></app-headerpages>
+
+<section class="position-relative overflow-hidden ">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 with_bg pt-5 pb-5 text-center">
-                <h2>Contact</h2>
-                <div class="line">
-                    <span><a href="#" class="text-decoration-none text-white">Delishs</a></span>
-                    <!-- <span class="position-relative mx-1 ms-2"><i class="bi bi-caret-right-fill position-absolute top-0 end-0 z-2 mx-1 "></i><i class="bi bi-caret-right "></i></span> -->
-                    <span class="mx-1">
-                        <i class="bi bi-chevron-double-right"></i>
-                    </span>
-                    <span class="text-coloered">Contact</span>
-                    
-                </div>
-                <p>Contact</p>     
-            </div>
-
             <div class="col-12 px-0">
                 <div class="map col-12 position-relative">
                     <div class="w-100 mapContainer">
@@ -87,6 +75,14 @@
                 </div>
             </div>
 
+        </div>
+    </div>
+</section>
+
+<section class="position-relative overflow-hidden ">
+    <div class="container-fluid">
+        <div class="row">
+
             <div class="col-12  mt-70 ">
                 <div class=" container message-form mx-auto">
                     <div class="col-12 form_f" >
@@ -131,10 +127,10 @@
                 </div>
 
             </div>
+
+
         </div>
     </div>
 </section>
 
-<section class="p-0 m-0">
-    <app-booktablefooter></app-booktablefooter>
-</section>
+<app-booktablefooter></app-booktablefooter>

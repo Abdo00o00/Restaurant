@@ -1,0 +1,15 @@
+button {
+    line-height: 23px;
+    font-weight: 600;
+    padding: 12.5px 42px ;    
+    /* color: #CB3A1A !important; */
+    color: white !important;
+    /* border: 1px solid #CB3A1A !important; */
+    background-color:  #CB3A1A !important;
+}
+button .inbutton_moving_div {
+    transition: all 0.3s ease;
+}
+button:hover .inbutton_moving_div {
+    transform: translateY(-100%);
+}

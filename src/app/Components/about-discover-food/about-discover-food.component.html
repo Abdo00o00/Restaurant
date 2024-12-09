@@ -1,0 +1,36 @@
+<section class="section-space">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex flex-column justify-content-center">
+                <div class="col-12 text-center text-container mb-70">
+                    <div>
+                        <span class="section__subtitle">Discover Food</span>
+                        <p class="h1 mb-2">Discover Our Category</p>
+                    </div>
+                    <div class="col-12 decor-center">
+                        <img class="img-fluid" src="../../../assets/images/asset 8.svg" alt="decor">
+                    </div>
+                </div>
+                <div class="col-12 d-flex flex-column  flex-lg-row mx-auto">
+                    <div class="text-center px-3 col-12 col-lg-4 d-flex flex-column justify-content-center mx-auto " *ngFor="let item of descover_itemes">
+                        <figure>
+                            <div class="col-12">
+                                <a href="#" class="text-decoration-none overflow-hidden" title="img">
+                                    <img [src]="item.img_src" title="food" [alt]="item.alt_text" class=""/>
+                                </a>
+                            </div>
+                            <figcaption>                                
+                                <div class="col-12 ">
+                                    <a href="#" class="text-decoration-none text-black py-3"><span>{{item.a_text}}</span></a>
+                                    <p class="lorem">{{item.p_text}}</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
